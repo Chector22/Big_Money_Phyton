@@ -1,0 +1,22 @@
+#AWS Service Inventory 
+#create a kist of services using python.IE, Lamba, EC2, etc. 
+#Print the list using append or insert. 
+`#Poulate the list using append or insert 
+#Print the new list and the new lenght of the list
+aws_items = []
+aws_items.append('S3')
+aws_items.append('Lambda')
+aws_items.append('EC2') 
+aws_items.append('DynamoDB') 
+aws_items.append(CloudWatch') 
+aws_items.append('IAM') 
+
+print(aws_items) 
+
+print(len(aws_items))
+
+del aws_items[1]
+del aws_items[2] 
+
+print(aws_items)
+print(len(aws_items))
